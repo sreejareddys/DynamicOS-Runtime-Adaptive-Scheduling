@@ -1,0 +1,6 @@
+def explain_switch(old, new, avg_wait, threshold):
+    print("\n--- OS DECISION EXPLANATION ---")
+    print(f"Average waiting time = {avg_wait}")
+    print(f"Threshold = {threshold}")
+    print(f"Decision: Switch {old} → {new}")
+    print("Reason: CPU congestion detected\n")
